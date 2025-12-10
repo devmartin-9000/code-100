@@ -1,9 +1,9 @@
-import { Button } from "./components/ui/button";
+import Navbar from "./components/navbar";
 
 const App = () => {
   return (
-    <div className="flex justify-center items-center w-full h-screen">
-      <Button>Day 0</Button>
+    <div>
+      <Navbar />
     </div>
   )
 }
