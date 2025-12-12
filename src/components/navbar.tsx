@@ -1,7 +1,7 @@
 
 const Navbar = () => {
   return (
-		<div className="p-2 backdrop-blur-lg bg-primary/10">
+		<div className="fixed z-50 inset-0 p-2 bg-primary/10">
           {/* LEFT NAV */}
           <div className="bg-secondary rounded-4xl">
               <div className="flex items-center gap-4 border-s-10 border-e-10 border-primary p-2 rounded-full">
