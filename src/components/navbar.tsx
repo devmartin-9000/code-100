@@ -29,7 +29,7 @@ const Navbar = () => {
 					</div>
 					<div className="flex gap-4">
 						<Button
-							className="w-36 rounded-full bg-transparent hover:border-primary/70 transform transition-all duration-200"
+							className="w-36 rounded-full"
 							variant="outline"
 						>
 							Log In
