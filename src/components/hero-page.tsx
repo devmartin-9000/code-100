@@ -16,7 +16,7 @@ const HeroSection = () => {
 				{Array.from({ length: 4 }).map((_, index) => (
 					<div
 						key={index}
-						className="rounded-2xl bg-white/10 backdrop-blur-sm"
+						className="rounded-br-2xl rounded-tr-2xl border-t-2  border-b-2  border-r-2 border-border/20 backdrop-blur-sm"
 					/>
 				))}
 			</div>
