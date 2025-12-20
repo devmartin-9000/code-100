@@ -14,7 +14,9 @@ const Navbar = () => {
 					</div>
 					<div className="flex gap-4 text-md font-bold">
 						{/* Menu Links */}
-						<a className="border-y-3 p-2 rounded-full border-transparent hover:border-primary transform-border transition-all duration-500 cursor-pointer">
+					  <a className="border-y-3 p-2 rounded-full border-transparent hover:border-primary transform-border transition-all duration-500 cursor-pointer"
+					  href="/games"
+					  >
 							Games
 						</a>
 						<a className="border-y-3 p-2 rounded-full border-transparent hover:border-primary transform-border transition-all duration-500 cursor-pointer">

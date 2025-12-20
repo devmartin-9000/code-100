@@ -22,10 +22,16 @@ const HeroSection = () => {
 			</div>
 
 			{/* Foreground Content */}
-			<div className="relative z-10 flex h-full flex-col items-center justify-center text-center">
-				<h1 className="text-5xl font-extrabold text-secondary">
-					This is the landing page
-				</h1>
+			<div className="relative z-10 flex h-full max-w-7xl mx-auto flex-col items-center justify-center text-center">
+				<div className="text-wrap font-extrabold gap-y-6 flex flex-col">
+					<h1 className="text-secondary text-7xl">
+						Welcome to <span className="text-accent">CODE100</span> portal
+					</h1>
+					<h1 className="text-5xl text-muted-foreground">
+						a place for all sorts of cool
+						projects, from games to somewhat fun useful tools
+					</h1>
+				</div>
 			</div>
 		</section>
 	);
